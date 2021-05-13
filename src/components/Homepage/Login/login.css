@@ -1,0 +1,28 @@
+.login{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../../../media/loginbg2.png');
+    background-position:center;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__form{
+    background-color: white;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+
+.buttonbox{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+}
